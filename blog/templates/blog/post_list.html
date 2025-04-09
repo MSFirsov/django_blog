@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>It's my blog</title>
+    </head>
+    <body>
+        <p>
+            {% for post in p_list %}
+                <p>{{ post.title }}</p>
+            {% endfor %}
+        </p>
+    </body>
+</html>
